@@ -16,3 +16,9 @@
 
 **Named Slots**
 Mithilfe von variablen kann man anstatt $slot named slots verwenden. Dies tut man zb.  mit *{{ $heading }}* und <x-slot:heading>Home Page<x-slot:heading>
+
+**Prop**
+Alles was nicht ein attribut im HTML ist. 
+
+**Blade Directive**
+Beginnt mit @. Shorthand PHP Formen in Blade.
