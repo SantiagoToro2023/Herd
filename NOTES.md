@@ -22,3 +22,7 @@ Alles was nicht ein attribut im HTML ist.
 
 **Blade Directive**
 Beginnt mit @. Shorthand PHP Formen in Blade.
+
+**Set String Boolean**
+Man kann mithilfe von : vor einer Variable den String Text als boolean Interpretieren, 
+zB. active='true' ist ein String, während :active='true' ein Boolean ist.
