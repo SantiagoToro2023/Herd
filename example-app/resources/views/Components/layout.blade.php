@@ -20,7 +20,7 @@
             <div class="ml-10 flex items-baseline space-x-4">
               <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
               <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
-              <x-nav-link href="/contact" :active="request()->is('Contact')" >Contact</x-nav-link>
+              <x-nav-link href="/contact" :active="request()->is('Contact')">Contact</x-nav-link>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="md:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-        <a href="/" class="{{ request()->is('/') ? 'bg-gray-900 text-white': 'text-gray-300 hover:bg-gray-700 hover:text-white'}} rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
+        <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
         <a href="/jobs" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Job Listings</a>
         <a href="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
       </div>
